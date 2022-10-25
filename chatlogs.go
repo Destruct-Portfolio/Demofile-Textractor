@@ -47,7 +47,7 @@ func main() {
 
 	// Write result to JSON
 	file, _ := json.MarshalIndent(data, "", " ")
-	_ = ioutil.WriteFile("temp.logs.json", file, 0644)
+	_ = ioutil.WriteFile("../../dist/output/temp.logs.json", file, 0644)
 
 }
 
